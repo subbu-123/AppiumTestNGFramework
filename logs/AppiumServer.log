@@ -1,0 +1,158 @@
+2022-07-01 11:52:34:511 [Appium] Welcome to Appium v1.22.3
+2022-07-01 11:52:34:513 [Appium] Non-default server args:
+2022-07-01 11:52:34:513 [Appium]   port: 1666
+2022-07-01 11:52:34:513 [Appium]   logFile: F:\eclipse-workspace\AppiumFramework\.\logs\AppiumServer.log
+2022-07-01 11:52:34:556 [Appium] Appium REST http interface listener started on 0.0.0.0:1666
+2022-07-01 11:52:34:772 [HTTP] --> GET /wd/hub/status
+2022-07-01 11:52:34:772 [HTTP] {}
+2022-07-01 11:52:34:775 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-07-01 11:52:34:777 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-07-01 11:52:34:784 [HTTP] <-- GET /wd/hub/status 200 10 ms - 68
+2022-07-01 11:52:34:785 [HTTP] 
+2022-07-01 11:52:38:038 [HTTP] Request idempotency key: b1678c86-da4d-44dc-8ad3-b44246683d2a
+2022-07-01 11:52:38:077 [HTTP] --> POST /wd/hub/session
+2022-07-01 11:52:38:078 [HTTP] {"desiredCapabilities":{"app":"F:\\eclipse-workspace\\AppiumFramework\\src\\test\\resources\\Apps\\General-Store.apk","noReset":true,"newCommandTimeout":60,"automationName":"uiautomator2","platformName":"Android","deviceName":"chituEmulator"},"capabilities":{"firstMatch":[{"appium:app":"F:\\eclipse-workspace\\AppiumFramework\\src\\test\\resources\\Apps\\General-Store.apk","appium:automationName":"uiautomator2","appium:deviceName":"chituEmulator","appium:newCommandTimeout":60,"appium:noReset":true,"platformName":"android"}]}}
+2022-07-01 11:52:38:079 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"F:\\eclipse-workspace\\AppiumFramework\\src\\test\\resources\\Apps\\General-Store.apk","noReset":true,"newCommandTimeout":60,"automationName":"uiautomator2","platformName":"Android","deviceName":"chituEmulator"},null,{"firstMatch":[{"appium:app":"F:\\eclipse-workspace\\AppiumFramework\\src\\test\\resources\\Apps\\General-Store.apk","appium:automationName":"uiautomator2","appium:deviceName":"chituEmulator","appium:newCommandTimeout":60,"appium:noReset":true,"platformName":"android"}]}]
+2022-07-01 11:52:38:080 [BaseDriver] Event 'newSessionRequested' logged at 1656676358080 (17:22:38 GMT+0530 (India Standard Time))
+2022-07-01 11:52:39:040 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-07-01 11:52:39:046 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-07-01 11:52:39:048 [BaseDriver] Creating session with W3C capabilities: {
+2022-07-01 11:52:39:048 [BaseDriver]   "alwaysMatch": {
+2022-07-01 11:52:39:049 [BaseDriver]     "platformName": "android",
+2022-07-01 11:52:39:049 [BaseDriver]     "appium:app": "F:\\eclipse-workspace\\AppiumFramework\\src\\test\\resources\\Apps\\General-Store.apk",
+2022-07-01 11:52:39:049 [BaseDriver]     "appium:automationName": "uiautomator2",
+2022-07-01 11:52:39:049 [BaseDriver]     "appium:deviceName": "chituEmulator",
+2022-07-01 11:52:39:050 [BaseDriver]     "appium:newCommandTimeout": 60,
+2022-07-01 11:52:39:050 [BaseDriver]     "appium:noReset": true
+2022-07-01 11:52:39:050 [BaseDriver]   },
+2022-07-01 11:52:39:050 [BaseDriver]   "firstMatch": [
+2022-07-01 11:52:39:050 [BaseDriver]     {}
+2022-07-01 11:52:39:050 [BaseDriver]   ]
+2022-07-01 11:52:39:051 [BaseDriver] }
+2022-07-01 11:52:39:075 [BaseDriver] Session created with session id: a1249750-b960-4c64-8fbc-ea20a217d39c
+2022-07-01 11:52:39:086 [BaseDriver] Using local app 'F:\eclipse-workspace\AppiumFramework\src\test\resources\Apps\General-Store.apk'
+2022-07-01 11:52:39:087 [UiAutomator2] Checking whether app is actually present
+2022-07-01 11:52:39:143 [ADB] Found 2 'build-tools' folders under 'C:\Users\Chitu\AppData\Local\Android\Sdk' (newest first):
+2022-07-01 11:52:39:143 [ADB]     C:/Users/Chitu/AppData/Local/Android/Sdk/build-tools/33.0.0
+2022-07-01 11:52:39:144 [ADB]     C:/Users/Chitu/AppData/Local/Android/Sdk/build-tools/30.0.3
+2022-07-01 11:52:39:145 [ADB] Using 'adb.exe' from 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-07-01 11:52:39:146 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-07-01 11:52:39:268 [AndroidDriver] Retrieving device list
+2022-07-01 11:52:39:269 [ADB] Trying to find a connected android device
+2022-07-01 11:52:39:270 [ADB] Getting connected devices
+2022-07-01 11:52:39:373 [ADB] No connected devices have been detected
+2022-07-01 11:52:39:373 [ADB] Could not find online devices
+2022-07-01 11:52:39:374 [ADB] Reconnecting adb (target offline)
+2022-07-01 11:52:39:374 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-07-01 11:52:39:710 [ADB] Getting connected devices
+2022-07-01 11:52:39:826 [ADB] No connected devices have been detected
+2022-07-01 11:52:39:827 [ADB] Could not find online devices
+2022-07-01 11:52:39:827 [ADB] Reconnecting adb (target offline)
+2022-07-01 11:52:39:827 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-07-01 11:52:40:143 [ADB] Getting connected devices
+2022-07-01 11:52:40:275 [ADB] No connected devices have been detected
+2022-07-01 11:52:40:276 [ADB] Could not find online devices
+2022-07-01 11:52:40:276 [ADB] Reconnecting adb (target offline)
+2022-07-01 11:52:40:277 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-07-01 11:52:40:579 [ADB] Getting connected devices
+2022-07-01 11:52:40:675 [ADB] No connected devices have been detected
+2022-07-01 11:52:40:676 [ADB] Could not find online devices
+2022-07-01 11:52:40:676 [ADB] Reconnecting adb (target offline)
+2022-07-01 11:52:40:676 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-07-01 11:52:40:998 [ADB] Getting connected devices
+2022-07-01 11:52:41:135 [ADB] No connected devices have been detected
+2022-07-01 11:52:41:136 [ADB] Could not find online devices
+2022-07-01 11:52:41:136 [ADB] Reconnecting adb (target offline)
+2022-07-01 11:52:41:136 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-07-01 11:52:41:468 [ADB] Getting connected devices
+2022-07-01 11:52:41:612 [ADB] No connected devices have been detected
+2022-07-01 11:52:41:613 [ADB] Could not find online devices
+2022-07-01 11:52:41:613 [ADB] Reconnecting adb (target offline)
+2022-07-01 11:52:41:613 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-07-01 11:52:41:961 [ADB] Getting connected devices
+2022-07-01 11:52:42:113 [ADB] No connected devices have been detected
+2022-07-01 11:52:42:114 [ADB] Could not find online devices
+2022-07-01 11:52:42:114 [ADB] Reconnecting adb (target offline)
+2022-07-01 11:52:42:115 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-07-01 11:52:42:506 [ADB] Getting connected devices
+2022-07-01 11:52:42:746 [ADB] No connected devices have been detected
+2022-07-01 11:52:42:751 [ADB] Could not find online devices
+2022-07-01 11:52:42:751 [ADB] Reconnecting adb (target offline)
+2022-07-01 11:52:42:752 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-07-01 11:52:43:081 [ADB] Getting connected devices
+2022-07-01 11:52:43:290 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2022-07-01 11:52:43:291 [AndroidDriver] Using device: emulator-5554
+2022-07-01 11:52:43:295 [ADB] Using 'adb.exe' from 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-07-01 11:52:43:295 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-07-01 11:52:43:513 [ADB] Setting device id to emulator-5554
+2022-07-01 11:52:43:514 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2022-07-01 11:52:48:194 [ADB] Current device property 'ro.build.version.sdk': 31
+2022-07-01 11:52:48:194 [ADB] Getting device platform version
+2022-07-01 11:52:48:195 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-07-01 11:52:49:046 [ADB] Current device property 'ro.build.version.release': 12
+2022-07-01 11:52:49:047 [ADB] Device API level: 31
+2022-07-01 11:52:49:048 [UiAutomator2] Relaxing hidden api policy
+2022-07-01 11:52:49:049 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-07-01 11:52:54:748 [AndroidDriver] Parsing package and activity from app manifest
+2022-07-01 11:52:54:794 [ADB] Package name: 'com.androidsample.generalstore'
+2022-07-01 11:52:54:795 [ADB] Main activity name: 'com.androidsample.generalstore.SplashActivity'
+2022-07-01 11:52:54:797 [AndroidDriver] Parsed package and activity are: com.androidsample.generalstore/com.androidsample.generalstore.SplashActivity
+2022-07-01 11:52:54:800 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2022-07-01 11:52:54:899 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2022-07-01 11:52:55:051 [AndroidDriver] Pushing settings apk to device...
+2022-07-01 11:52:55:052 [ADB] Getting install status for io.appium.settings
+2022-07-01 11:52:55:052 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-07-01 11:53:05:590 [ADB] 'io.appium.settings' is not installed
+2022-07-01 11:53:05:591 [ADB] App 'C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' is not installed
+2022-07-01 11:53:05:592 [ADB] Installing 'C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2022-07-01 11:53:05:595 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 help'
+2022-07-01 11:53:05:711 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 features'
+2022-07-01 11:53:05:792 [ADB] The application at 'C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2022-07-01 11:53:05:793 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 install -g C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2022-07-01 11:53:24:069 [ADB] The installation of 'settings_apk-debug.apk' took 18276ms
+2022-07-01 11:53:24:070 [ADB] Install command stdout: Performing Streamed Install
+2022-07-01 11:53:24:071 [ADB] Success
+2022-07-01 11:53:24:074 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-01 11:53:24:075 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2022-07-01 11:53:25:299 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-01 11:53:28:470 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-01 11:53:28:472 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-01 11:53:29:516 [ADB] Starting Appium Settings app
+2022-07-01 11:53:29:517 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER'
+2022-07-01 11:53:35:695 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-01 11:53:35:696 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-01 11:53:36:356 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-01 11:53:36:358 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-01 11:53:37:350 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-01 11:53:37:351 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-01 11:53:37:907 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-01 11:53:37:909 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-01 11:53:38:501 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-01 11:53:38:501 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-01 11:53:39:199 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-01 11:53:39:200 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-01 11:53:39:972 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-01 11:53:39:973 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-01 11:53:40:702 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-01 11:53:40:702 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-01 11:53:41:436 [AndroidDriver] Error: Appium Settings app is not running after 5000ms
+2022-07-01 11:53:41:437 [AndroidDriver]     at ADB.requireRunningSettingsApp (C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\settings-client-commands.js:72:11)
+2022-07-01 11:53:41:437 [AndroidDriver]     at Object.pushSettingsApp (C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:593:5)
+2022-07-01 11:53:41:437 [AndroidDriver]     at Object.initDevice (C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:765:5)
+2022-07-01 11:53:41:438 [AndroidDriver]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:379:23)
+2022-07-01 11:53:41:438 [AndroidDriver]     at AndroidUiautomator2Driver.createSession (C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+2022-07-01 11:53:41:438 [AndroidDriver]     at AppiumDriver.createSession (C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\lib\appium.js:387:35)
+2022-07-01 11:53:41:439 [UiAutomator2] Deleting UiAutomator2 session
+2022-07-01 11:53:41:440 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.androidsample.generalstore'
+2022-07-01 11:53:44:439 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2022-07-01 11:53:44:441 [ADB] Running 'C:\Users\Chitu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2022-07-01 11:53:46:729 [BaseDriver] Event 'newSessionStarted' logged at 1656676426728 (17:23:46 GMT+0530 (India Standard Time))
+2022-07-01 11:53:46:730 [W3C] Encountered internal error running command: Error: Appium Settings app is not running after 5000ms
+2022-07-01 11:53:46:731 [W3C]     at ADB.requireRunningSettingsApp (C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\settings-client-commands.js:72:11)
+2022-07-01 11:53:46:733 [W3C]     at Object.pushSettingsApp (C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:593:5)
+2022-07-01 11:53:46:733 [W3C]     at Object.initDevice (C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:765:5)
+2022-07-01 11:53:46:734 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:379:23)
+2022-07-01 11:53:46:734 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+2022-07-01 11:53:46:735 [W3C]     at AppiumDriver.createSession (C:\Users\Chitu\AppData\Roaming\npm\node_modules\appium\lib\appium.js:387:35)
+2022-07-01 11:53:46:774 [HTTP] <-- POST /wd/hub/session 500 68694 ms - 655
+2022-07-01 11:53:46:775 [HTTP] 

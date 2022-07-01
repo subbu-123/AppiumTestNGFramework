@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mobile Automation suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.listeners.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" name="Hybrid App Test cases(failed)" verbose="0">
+    <classes>
+      <class name="com.tests.CartPageTests">
+        <methods>
+          <include name="stopAppiumServer"/>
+          <include name="startAppiumServer"/>
+          <include name="validateSumOfProductPricesEqualsToTotalAmountOnCartPage"/>
+          <include name="validateUserPerformsActionsInCartPageAndNavigatesToWebHomePage"/>
+          <include name="driverInitiation"/>
+          <include name="teardown"/>
+          <include name="validateSelectedProductsAppearOnCartPage"/>
+        </methods>
+      </class> <!-- com.tests.CartPageTests -->
+      <class name="com.tests.ProductPageTests">
+        <methods>
+          <include name="stopAppiumServer"/>
+          <include name="startAppiumServer"/>
+          <include name="validateUserNavigatesToCartPageSuccessfully"/>
+          <include name="driverInitiation"/>
+          <include name="validateProductsAreAddedToCart"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.tests.ProductPageTests -->
+      <class name="com.tests.LandingPageTests">
+        <methods>
+          <include name="stopAppiumServer"/>
+          <include name="ValidateUserFillsLandingPageForm"/>
+          <include name="startAppiumServer"/>
+          <include name="ValidateErrorMsgIfNameFieldIsNotEntered"/>
+          <include name="driverInitiation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.tests.LandingPageTests -->
+    </classes>
+  </test> <!-- Hybrid App Test cases(failed) -->
+</suite> <!-- Failed suite [Mobile Automation suite] -->

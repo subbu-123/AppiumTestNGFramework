@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Mobile Automation suite">
+	<listeners>
+		<listener class-name="com.listeners.ExtentListener" />
+	</listeners>
+
+	<test name="Hybrid App Test cases">
+		<packages>
+			<package name="com.tests" />
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
